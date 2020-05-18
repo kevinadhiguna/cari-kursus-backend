@@ -11,6 +11,8 @@ BackEnd projek ini dibangun dengan menggunakan NodeJS sebagai server dari aplika
 - Express, digunakan untuk membuat suatu REST API Server
 - Axios, digunakan untuk fetching API
 
+Untuk database juga akan ada pada repository ini dan diperbarui secara berkala.
+
 > Cara Penggunaan
 - Buka terminal di halaman utama
 - Ketik : <br/> `$ git clone https://github.com/fyfirman/cari-kursus-backend.git`
