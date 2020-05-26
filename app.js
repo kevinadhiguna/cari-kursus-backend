@@ -2,6 +2,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const express = require('express');
 const routes = require('./routes');
+const log = require('morgan')('dev');
 
 // server config variables
 const config = {
@@ -17,11 +18,12 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(cors());
+app.use(log);
 
 // import routes to express app with '/api' prefix
 app.use('/api', routes);
 
 // run the express app on PORT config.PORT
-app.listen(config.PORT, () => {
-  console.log(`starting ${config.ENV} server at http://localhost:${config.PORT}`);
+app.listen(config.PORT, (req, res) => {
+  console.log(`Server is running on ${config.PORT} port.`);
 });
