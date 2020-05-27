@@ -6,11 +6,7 @@ exports.getCourses = async (req, res) => {
   courses = courses.bindings.map((courses, index) => formatter(courses, index));
 
   if (req.params.id) {
-    let result = courses.find((course) => {
-      if (course.id = req.params.id)
-        return courses
-    });
-    res.status(200).json(result);
+    return res.status(200).json(courses[req.params.id]);
   } else {
     return res.status(200).json(courses);
   }
