@@ -5,5 +5,6 @@ const Course = require('./api/course/course.controller')
 const router = express.Router();
 
 router.get('/course', Course.getCourses);
+router.get('/course/:id', Course.getCourses);
 
 module.exports = router;
