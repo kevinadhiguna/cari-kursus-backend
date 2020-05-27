@@ -9,7 +9,7 @@ const headers = {
   'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
 };
 
-exports.get = async () => {
+exports.get = async (param) => {
   const queryData = {
     query:
       `PREFIX cl: <http://carikursus.com/ns/courselist#>
@@ -23,6 +23,9 @@ exports.get = async () => {
               cl:link    ?link ;
               cl:desc    ?desc ;
         OPTIONAL {?c     cl:feature  ?feature . }
+        FILTER contains(lcase(str(?name)), lcase(str("${param.name ? param.name : ''}")))
+        FILTER contains(lcase(str(?category)), lcase(str("${param.category ? param.category : ''}")))
+        FILTER contains(lcase(str(?platform)), lcase(str("${param.platform ? param.platform : ''}")))
       }`
   };
 
