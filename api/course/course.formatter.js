@@ -1,7 +1,4 @@
 module.exports = (course, index) => {
-
-  
-
   return {
     "id": index,
     "name": course.name.value,
