@@ -5,7 +5,7 @@ Projek ini dibangun dengan menggunakan NodeJS sebagai server dari aplikasi, adap
 - Express, digunakan untuk membuat suatu REST API Server
 - Axios, digunakan untuk fetching API yang berasal dari server SPARQL
 
-Untuk database juga akan ada pada repository ini dan diperbarui secara berkala.
+Untuk database juga akan ada pada repository ini pada folder `data` dan diperbarui secara berkala.
 
 ## Cara Penggunaan Backend
 
