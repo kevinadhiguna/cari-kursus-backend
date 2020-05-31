@@ -14,7 +14,7 @@ exports.get = async (param) => {
     query:
       `PREFIX cl: <http://carikursus.com/ns/courselist#>
 
-      SELECT ?name ?category ?platform ?link ?desc ?feature
+      SELECT ?c ?name ?category ?platform ?link ?desc ?feature
       WHERE
       {
         ?c     cl:name    ?name ;
