@@ -10,7 +10,7 @@ id:001     cl:name     "Kelas Online Flutter Mobile Apps Developer" ;
     cl:category      "Mobile Apps" ;
     cl:platform       "buildwithangga" ;
     cl:link       "https://buildwithangga.com/kelas/flutter-mobile-apps-developer" ;
-    cl:desc       "Di kelas ini kita akan belajar UI UX design dan Mobile Apps development menggunakan Flutter SDK dari dasar sampai bisa memiliki aplikasi iOS dan Android buatan sendiri." ;
+    cl:desc       "Di kelas ini kita akan belajar UI UX design dan Mobile Apps development menggunakan Flutter SDK dari dasar sampai bisa memiliki aplikasi iOS dan Android buatan sendiri" ;
     cl:feature         "Konsultasi gratis, Private Group, Project Master, Source Code, Sertifikat kelulusan, Update Tutorial Terbaru, Kesempatan Bekerja" . 
 
 id:002     cl:name     "Complete C# Unity Developer 2D: Learn to Code Making Games" ;
@@ -24,13 +24,13 @@ id:003     cl:name     "AWS Fundamentals: Going Cloud-Native" ;
     cl:category      "Cloud Platform" ;
     cl:platform       "Coursera" ;
     cl:link       "https://www.coursera.org/learn/aws-fundamentals-going-cloud-native" ;
-    cl:desc       "This course will introduce you to Amazon Web Services (AWS) core services and infrastructure. Through demonstrations you'll learn how to use and configure AWS services to deploy and host a cloud-native application." . 
+    cl:desc       "This course will introduce you to Amazon Web Services (AWS) core services and infrastructure. Through demonstrations you'll learn how to use and configure AWS services to deploy and host a cloud-native application" . 
 
 id:004     cl:name     "Practical Ethical Hacking - The Complete Course" ;
     cl:category      "Ethical Hacking" ;
     cl:platform       "Udemy" ;
     cl:link       "https://www.udemy.com/course/practical-ethical-hacking/" ;
-    cl:desc       "2020 Launch! Learn how to hack like a pro by a pro. Up to date practical hacking techniques with absolutely no filler." ;
+    cl:desc       "2020 Launch! Learn how to hack like a pro by a pro. Up to date practical hacking techniques with absolutely no filler" ;
     cl:feature         "Video atas permintaan 24.5 jam, 1 artikel, 5 sumber daya yang dapat diunduh, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Sertifikat Penyelesaian" . 
 
 id:005     cl:name     "Kelas Online Full-Stack Web Developer" ;
@@ -50,7 +50,7 @@ id:007     cl:name     "DevOps Certification Training" ;
     cl:category      "DevOps" ;
     cl:platform       "edureka" ;
     cl:link       "https://www.edureka.co/devops-certification-training" ;
-    cl:desc       "The DevOps Certification Training Program will provide you with in-depth knowledge of various DevOps tools including Git, Jenkins, Docker, Ansible, Puppet, Kubernetes and Nagios." ;
+    cl:desc       "The DevOps Certification Training Program will provide you with in-depth knowledge of various DevOps tools including Git, Jenkins, Docker, Ansible, Puppet, Kubernetes and Nagios" ;
     cl:feature         "Instructor-led Sessions, Real-life Case Studies, Assignments, Lifetime Access, 24x7 Expert Support, Certifiation, Forum" . 
 
 id:008     cl:name     "3 in 1! Cisco CCNA, Python Programming, & Network Automation" ;
@@ -71,4 +71,38 @@ id:010     cl:name     "Machine Learning with Python" ;
     cl:category      "Machine Learning" ;
     cl:platform       "Coursera" ;
     cl:link       "https://www.coursera.org/learn/machine-learning-with-python" ;
-    cl:desc       "This course dives into the basics of machine learning using an approachable, and well-known programming language, Python." . 
+    cl:desc       "This course dives into the basics of machine learning using an approachable, and well-known programming language, Python" . 
+
+id:011     cl:name     "Kelas Online Full-Stack JavaScript Developer" ;
+    cl:category      "Full-Stack Web Development" ;
+    cl:platform       "buildwithangga" ;
+    cl:link       "https://buildwithangga.com/kelas/full-stack-javascript-developer" ;
+    cl:desc       "Full-Stack Web Developmet menggunakan MERN Stack" ;
+    cl:feature         "Konsultasi gratis, Private Group, Project Master, Source Code, Sertifikat kelulusan, Update Tutorial Terbaru, Kesempatan Bekerja" . 
+
+id:012     cl:name     "Server-side Development with NodeJS, Express and MongoDB" ;
+    cl:category      "Back-End Web Development" ;
+    cl:platform       "Coursera" ;
+    cl:link       "https://www.coursera.org/learn/server-side-nodejs" ;
+    cl:desc       "This course deals with all things server-side. We base the entire course around the NodeJS platform" . 
+
+id:013     cl:name     "Docker Training and Certification" ;
+    cl:category      "DevOps" ;
+    cl:platform       "edureka" ;
+    cl:link       "https://www.edureka.co/docker-training" ;
+    cl:desc       "Edureka's Docker Certification course provides an end to end learning experience for core Docker technologies" ;
+    cl:feature         "Instructor-led Sessions, Real-life Case Studies, Assignments, Lifetime Access, 24x7 Expert Support, Certifiation, Forum" . 
+
+id:014     cl:name     "Computer Network: Networking fundamentals + Wireshark Basics" ;
+    cl:category      "Computer Network" ;
+    cl:platform       "Udemy" ;
+    cl:link       "https://www.udemy.com/course/computer-networks-course-networking-basics/" ;
+    cl:desc       "Learn Computer Networks fundamentals and Wireshark Basics; Build Strong, Successful Foundation in Computer Networking" ;
+    cl:feature         "Video atas permintaan 3.5 jam, Audio atas permintaan, 2.5 jam, 1 artikel, 2 sumber daya yang dapat diunduh, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Sertifikat Penyelesaian" . 
+
+id:015     cl:name     "Shodan The Scariest Search Engine" ;
+    cl:category      "Ethical Hacking" ;
+    cl:platform       "Udemy" ;
+    cl:link       "https://www.udemy.com/course/shodan-the-scariest-search-engine/" ;
+    cl:desc       "Teknik Penggunaan Shodan untuk menggali Informasi" ;
+    cl:feature         "Video atas permintaan 41 menit, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Sertifikat Penyelesaian" . 
