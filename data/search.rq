@@ -1,0 +1,25 @@
+# Projek    :   Cari Kursus Informatika
+# Anggota   :   M. Fadillah Arsa        (140810170005)
+#               Firmansyah Yanuar       (140810170051)
+#               Kevin Akbar Adhiguna    (140810170055) 
+# Kelas     :   A
+
+# Catatan :
+# Fungsi query ini adalah untuk mencari kursus informatika berdasarkan Name, Category, Platform Kursus
+# Query ini terdapat pada backend dan tidak untuk dijalankan dengan apache-jena
+
+PREFIX cl: <http://carikursus.com/ns/courselist#>
+
+SELECT ?c ?name ?category ?platform ?link ?desc ?feature
+WHERE
+{
+  ?c     cl:name    ?name ;
+        cl:category    ?category ;
+        cl:platform    ?platform ;
+        cl:link    ?link ;
+        cl:desc    ?desc ;
+  OPTIONAL {?c     cl:feature  ?feature . }
+  FILTER contains(lcase(str(?name)), lcase(str("${param.name ? param.name : ''}")))
+  FILTER contains(lcase(str(?category)), lcase(str("${param.category ? param.category : ''}")))
+  FILTER contains(lcase(str(?platform)), lcase(str("${param.platform ? param.platform : ''}")))
+}
