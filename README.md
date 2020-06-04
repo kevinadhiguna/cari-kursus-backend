@@ -9,10 +9,15 @@ Untuk database juga akan ada pada repository ini pada folder `data` dan diperbar
 
 ## Cara Penggunaan Backend
 
-- Jalankan fuseki server dengan command dibawah pada folder fuseki server
+- Jalankan fuseki server dengan command dibawah pada folder fuseki server di cmd/terminal
 
+  Pada sistem operasi Windows :
   ```cmd
   fuseki-server
+  ```
+  Pada sistem operasi berbasis Linux :
+  ```cmd
+  ./fuseki-server
   ```
 
 - Akses server management di
@@ -23,6 +28,13 @@ Untuk database juga akan ada pada repository ini pada folder `data` dan diperbar
 
 - Tambahkan `dataset` dengan nama `cari-kursus`
 - Upload data `cari-kursus.ttl` ada pada folder `data` di repository
+- Kemudian buka cmd/terminal lain atau tab baru pada terminal, tanpa menutup cmd/terminal fuseki server.
+- Install node modules dengan
+  
+  ```cmd
+  npm install
+  ```
+  
 - Jalankan REST API Server dengan
   
   ```cmd
