@@ -19,7 +19,7 @@ exports.get = async (param) => {
               cl:category    ?category ;
               cl:platform    ?platform ;
               cl:link    ?link ;
-              cl:desc    ?desc ;
+        OPTIONAL {?c     cl:desc  ?desc . }
         OPTIONAL {?c     cl:feature  ?feature . }
         FILTER contains(lcase(str(?name)), lcase(str("${param.name ? param.name : ''}")))
         FILTER contains(lcase(str(?category)), lcase(str("${param.category ? param.category : ''}")))

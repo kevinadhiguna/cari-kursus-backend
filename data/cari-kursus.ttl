@@ -106,3 +106,9 @@ id:015     cl:name     "Shodan The Scariest Search Engine" ;
     cl:link       "https://www.udemy.com/course/shodan-the-scariest-search-engine/" ;
     cl:desc       "Teknik Penggunaan Shodan untuk menggali Informasi" ;
     cl:feature         "Video atas permintaan 41 menit, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Sertifikat Penyelesaian" . 
+
+id:016     cl:name     "Security Networking" ;
+    cl:category      "Ethical Hacking" ;
+    cl:platform       "Udemy" ;
+    cl:link       "https://www.udemy.com/course/shodan-the-scariest-search-engine/" . 
+    

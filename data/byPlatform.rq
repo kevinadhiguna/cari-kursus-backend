@@ -17,9 +17,9 @@ WHERE
          cl:category    ?category ;
          cl:platform    ?platform ;
          cl:link    ?link ;
-         cl:desc    ?desc ;
+  OPTIONAL {?c     cl:desc  ?desc . }
   OPTIONAL {?c     cl:feature  ?feature . }
-  FILTER regex(?platform, "{?platform}")
+  FILTER regex(?platform, "Udemy")
 }
 
 # Query yang digunakan pada backend adalah search.rq yang sudah terintegrasi dengan backend
