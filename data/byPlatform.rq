@@ -15,11 +15,13 @@ WHERE
 {
   ?c     cl:name    ?name ;
          cl:category    ?category ;
-         cl:platform    ?platform ;
          cl:link    ?link ;
+         cl:isOnPlatform    ?namaPlatform . 
+
+  ?namaPlatform cl:platform ?platform . 
   OPTIONAL {?c     cl:desc  ?desc . }
   OPTIONAL {?c     cl:feature  ?feature . }
-  FILTER regex(?platform, "Udemy")
+  FILTER regex(?platform, "Udemy") # 'Udemy' hanya sebagai contoh
 }
 
 # Query yang digunakan pada backend adalah search.rq yang sudah terintegrasi dengan backend
