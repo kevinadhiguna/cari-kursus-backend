@@ -1,8 +1,6 @@
 const axios = require('axios');
 const qs = require('qs');
 
-const BASE_URL = "http://localhost:3030/cari-kursus/query";
-
 // headers for the HTTP request
 const headers = {
   'Accept': 'application/sparql-results+json,*/*;q=0.9',
@@ -30,7 +28,7 @@ exports.get = async (param) => {
   };
 
   try {
-    const { data } = await axios(BASE_URL, {
+    const { data } = await axios(process.env.API_URL, {
       method: 'POST',
       headers,
       data: qs.stringify(queryData)
