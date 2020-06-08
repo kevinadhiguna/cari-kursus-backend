@@ -8,7 +8,7 @@
 # Fungsi query ini adalah untuk mencari kursus berdasarkan Nama Kursus
 # Query ini sudah diuji dengan apache-jena-3.14.0, dengan cari-kursus.ttl
 
-PREFIX cl: <http://carikursus.com/ns/courselist#> 
+PREFIX cl: <https://cari-kursus.herokuapp.com/ns/courselist#> 
 
 SELECT ?name ?category ?platform ?link ?desc ?feature 
 WHERE

@@ -4,8 +4,8 @@
 #               Kevin Akbar Adhiguna    (140810170055) 
 # Kelas     :   A
 
-@prefix cl: <http://carikursus.com/ns/courselist#> .
-@prefix id: <http://carikursus.com/ns/data#> .
+@prefix cl: <https://cari-kursus.herokuapp.com/ns/courselist#> .
+@prefix id: <https://cari-kursus.herokuapp.com//ns/data#> .
 
 # Courses
 id:001 cl:name "Kelas Online Flutter Mobile Apps Developer" ; 
@@ -119,18 +119,18 @@ id:plat25 cl:platform "Coursera" .
 id:plat27 cl:platform "Edureka" .
 
 # Course Platform
-id:001 cl:isOnPlatform id:plat23 . 
-id:002 cl:isOnPlatform id:plat21 . 
+id:001 cl:isOnPlatform id:plat21 . 
+id:002 cl:isOnPlatform id:plat23 . 
 id:003 cl:isOnPlatform id:plat25 . 
-id:004 cl:isOnPlatform id:plat21 . 
-id:005 cl:isOnPlatform id:plat23 . 
-id:006 cl:isOnPlatform id:plat23 . 
+id:004 cl:isOnPlatform id:plat23 . 
+id:005 cl:isOnPlatform id:plat21 . 
+id:006 cl:isOnPlatform id:plat21 . 
 id:007 cl:isOnPlatform id:plat27 . 
-id:008 cl:isOnPlatform id:plat21 . 
-id:009 cl:isOnPlatform id:plat21 . 
+id:008 cl:isOnPlatform id:plat23 . 
+id:009 cl:isOnPlatform id:plat23 . 
 id:010 cl:isOnPlatform id:plat25 . 
-id:011 cl:isOnPlatform id:plat23 . 
+id:011 cl:isOnPlatform id:plat21 . 
 id:012 cl:isOnPlatform id:plat25 . 
 id:013 cl:isOnPlatform id:plat27 . 
-id:014 cl:isOnPlatform id:plat21 . 
-id:015 cl:isOnPlatform id:plat21 . 
+id:014 cl:isOnPlatform id:plat23 . 
+id:015 cl:isOnPlatform id:plat23 . 
