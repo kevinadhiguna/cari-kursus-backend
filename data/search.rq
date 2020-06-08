@@ -21,7 +21,7 @@ WHERE
   ?namaCategory cl:category ?category . 
   ?namaPlatform cl:platform ?platform . 
   OPTIONAL {?c cl:desc ?desc . }
-  OPTIONAl {?c cl:feature ?feature . }
+  OPTIONAL {?c cl:feature ?feature . }
   FILTER contains(lcase(str(?name)), lcase(str("${param.name ? param.name : ''}")))
   FILTER contains(lcase(str(?category)), lcase(str("${param.category ? param.category : ''}")))
   FILTER contains(lcase(str(?platform)), lcase(str("${param.platform ? param.platform : ''}")))
