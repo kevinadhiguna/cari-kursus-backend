@@ -1,0 +1,197 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cl="http://carikursus.com/ns/courselist#"
+    xmlns:id="http://carikursus.com/ns/data#" > 
+  
+  <!--Course-->
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#001">
+    <cl:name>Kelas Online Flutter Mobile Apps Developer</cl:name>
+    <cl:link>https://buildwithangga.com/kelas/flutter-mobile-apps-developer</cl:link>
+    <cl:isCategorized rdf:resource="http://carikursus.com/ns/data#cat05" />
+    <cl:isOnplatform rdf:resource="http://carikursus.com/ns/data#plat23" />
+    <cl:desc>Di kelas ini kita akan belajar UI UX design dan Mobile Apps development menggunakan Flutter SDK dari dasar sampai bisa memiliki aplikasi iOS dan Android buatan sendiri</cl:desc>
+    <cl:feature>Konsultasi gratis, Private Group, Project Master, Source Code, Sertifikat kelulusan, Update Tutorial Terbaru, Kesempatan Bekerja</cl:feature>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#002">
+    <cl:name>Complete C# Unity Developer 2D: Learn to Code Making Games</cl:name>
+    <cl:link>https://www.udemy.com/course/unitycourse/</cl:link>
+    <cl:isCategorized rdf:resource="http://carikursus.com/ns/data#cat17" />
+    <cl:isOnplatform rdf:resource="http://carikursus.com/ns/data#plat21" />
+    <cl:desc>Game development & design. Learn Unity 2018 in C#. Your first 7 2D Unity games for web, Mac & PC. Includes Tilemap</cl:desc>
+    <cl:feature>Video atas permintaan 35 jam, 3 artikel, 27 sumber daya yang dapat diunduh, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Sertifikat Penyelesaian</cl:feature>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#003">
+    <cl:name>AWS Fundamentals: Going Cloud-Native</cl:name>
+    <cl:link>https://www.coursera.org/learn/aws-fundamentals-going-cloud-native</cl:link>
+    <cl:isCategorized rdf:resource="http://carikursus.com/ns/data#cat51" />
+    <cl:isOnplatform rdf:resource="http://carikursus.com/ns/data#plat25" />
+    <cl:desc>This course will introduce you to Amazon Web Services (AWS) core services and infrastructure. Through demonstrations you'll learn how to use and configure AWS services to deploy and host a cloud-native application</cl:desc>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#004">
+    <cl:name>Practical Ethical Hacking - The Complete Course</cl:name>
+    <cl:link>https://www.udemy.com/course/practical-ethical-hacking/</cl:link>
+    <cl:isCategorized rdf:resource="http://carikursus.com/ns/data#cat55" />
+    <cl:isOnplatform rdf:resource="http://carikursus.com/ns/data#plat21" />
+    <cl:desc>2020 Launch! Learn how to hack like a pro by a pro. Up to date practical hacking techniques with absolutely no filler</cl:desc>
+    <cl:feature>Video atas permintaan 24.5 jam, 1 artikel, 5 sumber daya yang dapat diunduh, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Sertifikat Penyelesaian</cl:feature>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#005">
+    <cl:name>Kelas Online Full-Stack Web Developer</cl:name>
+    <cl:link>https://buildwithangga.com/kelas/full-stack-web-developer</cl:link>
+    <cl:isCategorized rdf:resource="http://carikursus.com/ns/data#cat61" />
+    <cl:isOnplatform rdf:resource="http://carikursus.com/ns/data#plat23" />
+    <cl:desc>kelas Full-Stack Web Developer dan juga Web Designer yang di mana kita akan mempelajari UX design, UI design, Website Development dengan Bootstrap dan Laravel</cl:desc>
+    <cl:feature>Konsultasi gratis, Private Group, Project Master, Source Code, Sertifikat kelulusan, Update Tutorial Terbaru, Kesempatan Bekerja</cl:feature>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#006">
+    <cl:name>Kelas Online Node JavaScript Dasar</cl:name>
+    <cl:link>https://buildwithangga.com/kelas/node-javascript-dasar</cl:link>
+    <cl:isCategorized rdf:resource="http://carikursus.com/ns/data#cat65" />
+    <cl:isOnplatform rdf:resource="http://carikursus.com/ns/data#plat23" />
+    <cl:desc>Node js memiliki banyak banyak framework yang dapat memudahkan dan mempercepat pengerjaan pembuatan website, salah satu framework node js yaitu express js. express js adalah satu web framework paling populer di dunia Node.js</cl:desc>
+    <cl:feature></cl:feature>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#007">
+    <cl:name>DevOps Certification Training</cl:name>
+    <cl:link>https://www.edureka.co/devops-certification-training</cl:link>
+    <cl:isCategorized rdf:resource="http://carikursus.com/ns/data#cat71" />
+    <cl:isOnplatform rdf:resource="http://carikursus.com/ns/data#plat27" />
+    <cl:desc>The DevOps Certification Training Program will provide you with in-depth knowledge of various DevOps tools including Git, Jenkins, Docker, Ansible, Puppet, Kubernetes and Nagios</cl:desc>
+    <cl:feature>Instructor-led Sessions, Real-life Case Studies, Assignments, Lifetime Access, 24x7 Expert Support, Certifiation, Forum</cl:feature>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#008">
+    <cl:name>3 in 1! Cisco CCNA, Python Programming, & Network Automation</cl:name>
+    <cl:link>https://www.udemy.com/course/3-in-1-cisco-ccna-python-programming-network-automation/</cl:link>
+    <cl:isCategorized rdf:resource="http://carikursus.com/ns/data#cat77" />
+    <cl:isOnplatform rdf:resource="http://carikursus.com/ns/data#plat21" />
+    <cl:desc>Kursus Python for Network Engineers. Belajar 3 materi dalam satu kursus, Networking, Python, dan Network Programming</cl:desc>
+    <cl:feature>Jaminan Uang Kembali 30 Hari, Video atas permintaan 7.5 jam, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Sertifikat Penyelesaian</cl:feature>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#009">
+    <cl:name>React - The Complete Guide (incl Hooks, React Router, Redux)</cl:name>
+    <cl:link>https://www.udemy.com/course/react-the-complete-guide-incl-redux/</cl:link>
+    <cl:isCategorized rdf:resource="http://carikursus.com/ns/data#cat88" />
+    <cl:isOnplatform rdf:resource="http://carikursus.com/ns/data#plat21" />
+    <cl:desc>Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!</cl:desc>
+    <cl:feature>Jaminan Uang Kembali 30 Hari, Video atas permintaan 40.5 jam, 48 artikel, 223 sumber daya yang dapat diunduh, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Tugas, Sertifikat Penyelesaian</cl:feature>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#010">
+    <cl:name>Machine Learning with Python</cl:name>
+    <cl:link>https://www.coursera.org/learn/machine-learning-with-python</cl:link>
+    <cl:isCategorized rdf:resource="http://carikursus.com/ns/data#cat91" />
+    <cl:isOnplatform rdf:resource="http://carikursus.com/ns/data#plat25" />
+    <cl:desc>This course dives into the basics of machine learning using an approachable, and well-known programming language, Python</cl:desc>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#011">
+    <cl:name>Kelas Online Full-Stack JavaScript Developer</cl:name>
+    <cl:link>https://buildwithangga.com/kelas/full-stack-javascript-developer</cl:link>
+    <cl:isCategorized rdf:resource="http://carikursus.com/ns/data#cat61" />
+    <cl:isOnplatform rdf:resource="http://carikursus.com/ns/data#plat23" />
+    <cl:desc>Full-Stack Web Developmet menggunakan MERN Stack</cl:desc>
+    <cl:feature>Konsultasi gratis, Private Group, Project Master, Source Code, Sertifikat kelulusan, Update Tutorial Terbaru, Kesempatan Bekerja</cl:feature>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#012">
+    <cl:name>Server-side Development with NodeJS, Express and MongoDB</cl:name>
+    <cl:link>https://www.coursera.org/learn/server-side-nodejs</cl:link>
+    <cl:isCategorized rdf:resource="http://carikursus.com/ns/data#cat65" />
+    <cl:isOnplatform rdf:resource="http://carikursus.com/ns/data#plat25" />
+    <cl:desc>This course deals with all things server-side. We base the entire course around the NodeJS platform</cl:desc>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#013">
+    <cl:name>Docker Training and Certification</cl:name>
+    <cl:link>https://www.edureka.co/docker-training</cl:link>
+    <cl:isCategorized rdf:resource="http://carikursus.com/ns/data#cat71" />
+    <cl:isOnplatform rdf:resource="http://carikursus.com/ns/data#plat27" />
+    <cl:desc>Edureka's Docker Certification course provides an end to end learning experience for core Docker technologies</cl:desc>
+    <cl:feature>Instructor-led Sessions, Real-life Case Studies, Assignments, Lifetime Access, 24x7 Expert Support, Certifiation, Forum</cl:feature>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#014">
+    <cl:name>Computer Network: Networking fundamentals + Wireshark Basics</cl:name>
+    <cl:link>https://www.udemy.com/course/computer-networks-course-networking-basics/</cl:link>
+    <cl:isCategorized rdf:resource="http://carikursus.com/ns/data#cat77" />
+    <cl:isOnplatform rdf:resource="http://carikursus.com/ns/data#plat21" />
+    <cl:desc>Learn Computer Networks fundamentals and Wireshark Basics; Build Strong, Successful Foundation in Computer Networking</cl:desc>
+    <cl:feature>Video atas permintaan 3.5 jam, Audio atas permintaan, 2.5 jam, 1 artikel, 2 sumber daya yang dapat diunduh, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Sertifikat Penyelesaian</cl:feature>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#015">
+    <cl:name>Shodan The Scariest Search Engine</cl:name>
+    <cl:link>https://www.udemy.com/course/shodan-the-scariest-search-engine/</cl:link>
+    <cl:isCategorized rdf:resource="http://carikursus.com/ns/data#cat55" />
+    <cl:isOnplatform rdf:resource="http://carikursus.com/ns/data#plat21" />
+    <cl:desc>Teknik Penggunaan Shodan untuk menggali Informasi</cl:desc>
+    <cl:feature>Video atas permintaan 41 menit, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Sertifikat Penyelesaian</cl:feature>
+  </rdf:Description>
+  
+  <!--Category-->
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#cat05">
+    <cl:category>Mobile Apps</cl:category>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#cat17">
+    <cl:category>Game Development</cl:category>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#cat51">
+    <cl:category>Cloud Platform</cl:category>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#cat55">
+    <cl:category>Ethical Hacking</cl:category>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#cat61">
+    <cl:category>Full-Stack Web Development</cl:category>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#cat65">
+    <cl:category>Back-End Web Development</cl:category>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#cat71">
+    <cl:category>DevOps</cl:category>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#cat77">
+    <cl:category>Computer Network</cl:category>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#cat88">
+    <cl:category>Front-End Web Development</cl:category>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#cat91">
+    <cl:category>Machine Learning</cl:category>
+  </rdf:Description>
+
+  <!--Platform-->
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#plat21">
+    <cl:platform>Build with Angga</cl:platform>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#plat23">
+    <cl:platform>Udemy</cl:platform>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#plat25">
+    <cl:platform>Coursera</cl:platform>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://carikursus.com/ns/data#plat27">
+    <cl:platform>Edureka</cl:platform>
+  </rdf:Description>
+
+</rdf:RDF>

@@ -3,106 +3,134 @@
 #               Firmansyah Yanuar       (140810170051)
 #               Kevin Akbar Adhiguna    (140810170055) 
 # Kelas     :   A
+
 @prefix cl: <http://carikursus.com/ns/courselist#> .
 @prefix id: <http://carikursus.com/ns/data#> .
 
-id:001     cl:name     "Kelas Online Flutter Mobile Apps Developer" ;
-    cl:category      "Mobile Apps" ;
-    cl:platform       "buildwithangga" ;
-    cl:link       "https://buildwithangga.com/kelas/flutter-mobile-apps-developer" ;
-    cl:desc       "Di kelas ini kita akan belajar UI UX design dan Mobile Apps development menggunakan Flutter SDK dari dasar sampai bisa memiliki aplikasi iOS dan Android buatan sendiri" ;
-    cl:feature         "Konsultasi gratis, Private Group, Project Master, Source Code, Sertifikat kelulusan, Update Tutorial Terbaru, Kesempatan Bekerja" . 
+# Courses
+id:001 cl:name "Kelas Online Flutter Mobile Apps Developer" ; 
+        cl:link  "https://buildwithangga.com/kelas/flutter-mobile-apps-developer" ; 
+        cl:desc "Di kelas ini kita akan belajar UI UX design dan Mobile Apps development menggunakan Flutter SDK dari dasar sampai bisa memiliki aplikasi iOS dan Android buatan sendiri" ; 
+        cl:feature     "Konsultasi gratis, Private Group, Project Master, Source Code, Sertifikat kelulusan, Update Tutorial Terbaru, Kesempatan Bekerja" . 
 
-id:002     cl:name     "Complete C# Unity Developer 2D: Learn to Code Making Games" ;
-    cl:category      "Game Development" ;
-    cl:platform       "Udemy" ;
-    cl:link       "https://www.udemy.com/course/unitycourse/" ;
-    cl:desc       "Game development & design. Learn Unity 2018 in C#. Your first 7 2D Unity games for web, Mac & PC. Includes Tilemap" ;
-    cl:feature         "Video atas permintaan 35 jam, 3 artikel, 27 sumber daya yang dapat diunduh, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Sertifikat Penyelesaian" . 
+id:002 cl:name "Complete C# Unity Developer 2D: Learn to Code Making Games" ; 
+        cl:link  "https://www.udemy.com/course/unitycourse/" ; 
+        cl:desc     "Game development & design. Learn Unity 2018 in C#. Your first 7 2D Unity games for web, Mac & PC. Includes Tilemap" ; 
+        cl:feature "Video atas permintaan 35 jam, 3 artikel, 27 sumber daya yang dapat diunduh, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Sertifikat Penyelesaian" . 
 
-id:003     cl:name     "AWS Fundamentals: Going Cloud-Native" ;
-    cl:category      "Cloud Platform" ;
-    cl:platform       "Coursera" ;
-    cl:link       "https://www.coursera.org/learn/aws-fundamentals-going-cloud-native" ;
-    cl:desc       "This course will introduce you to Amazon Web Services (AWS) core services and infrastructure. Through demonstrations you'll learn how to use and configure AWS services to deploy and host a cloud-native application" . 
+id:003 cl:name "AWS Fundamentals: Going Cloud-Native" ; 
+        cl:link  "https://www.coursera.org/learn/aws-fundamentals-going-cloud-native" ; 
+        cl:desc     "This course will introduce you to Amazon Web Services (AWS) core services and infrastructure. Through demonstrations you'll learn how to use and configure AWS services to deploy and host a cloud-native application" . 
 
-id:004     cl:name     "Practical Ethical Hacking - The Complete Course" ;
-    cl:category      "Ethical Hacking" ;
-    cl:platform       "Udemy" ;
-    cl:link       "https://www.udemy.com/course/practical-ethical-hacking/" ;
-    cl:desc       "2020 Launch! Learn how to hack like a pro by a pro. Up to date practical hacking techniques with absolutely no filler" ;
-    cl:feature         "Video atas permintaan 24.5 jam, 1 artikel, 5 sumber daya yang dapat diunduh, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Sertifikat Penyelesaian" . 
+id:004 cl:name "Practical Ethical Hacking - The Complete Course" ; 
+        cl:link  "https://www.udemy.com/course/practical-ethical-hacking/" ; 
+        cl:desc     "2020 Launch! Learn how to hack like a pro by a pro. Up to date practical hacking techniques with absolutely no filler" ; 
+        cl:feature "Video atas permintaan 24.5 jam, 1 artikel, 5 sumber daya yang dapat diunduh, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Sertifikat Penyelesaian" . 
 
-id:005     cl:name     "Kelas Online Full-Stack Web Developer" ;
-    cl:category      "Full-Stack Web Development" ;
-    cl:platform       "buildwithangga" ;
-    cl:link       "https://buildwithangga.com/kelas/full-stack-web-developer" ;
-    cl:desc       "kelas Full-Stack Web Developer dan juga Web Designer yang di mana kita akan mempelajari UX design, UI design, Website Development dengan Bootstrap dan Laravel" ;
-    cl:feature         "Konsultasi gratis, Private Group, Project Master, Source Code, Sertifikat kelulusan, Update Tutorial Terbaru, Kesempatan Bekerja" . 
+id:005 cl:name "Kelas Online Full-Stack Web Developer" ; 
+        cl:link  "https://buildwithangga.com/kelas/full-stack-web-developer" ; 
+        cl:desc     "kelas Full-Stack Web Developer dan juga Web Designer yang di mana kita akan mempelajari UX design, UI design, Website Development dengan Bootstrap dan Laravel" ; 
+        cl:feature "Konsultasi gratis, Private Group, Project Master, Source Code, Sertifikat kelulusan, Update Tutorial Terbaru, Kesempatan Bekerja" . 
 
-id:006     cl:name     "Kelas Online Node JavaScript Dasar" ;
-    cl:category      "Back-End Web Development" ;
-    cl:platform       "buildwithangga" ;
-    cl:link       "https://buildwithangga.com/kelas/node-javascript-dasar" ;
-    cl:desc       "Node js memiliki banyak banyak framework yang dapat memudahkan dan mempercepat pengerjaan pembuatan website, salah satu framework node js yaitu express js. express js adalah satu web framework paling populer di dunia Node.js" . 
+id:006 cl:name "Kelas Online Node JavaScript Dasar" ; 
+        cl:link  "https://buildwithangga.com/kelas/node-javascript-dasar" ; 
+        cl:desc     "Node js memiliki banyak banyak framework yang dapat memudahkan dan mempercepat pengerjaan pembuatan website, salah satu framework node js yaitu express js. express js adalah satu web framework paling populer di dunia Node.js" . 
 
-id:007     cl:name     "DevOps Certification Training" ;
-    cl:category      "DevOps" ;
-    cl:platform       "edureka" ;
-    cl:link       "https://www.edureka.co/devops-certification-training" ;
-    cl:desc       "The DevOps Certification Training Program will provide you with in-depth knowledge of various DevOps tools including Git, Jenkins, Docker, Ansible, Puppet, Kubernetes and Nagios" ;
-    cl:feature         "Instructor-led Sessions, Real-life Case Studies, Assignments, Lifetime Access, 24x7 Expert Support, Certifiation, Forum" . 
+id:007 cl:name "DevOps Certification Training" ; 
+        cl:link  "https://www.edureka.co/devops-certification-training" ; 
+        cl:desc     "The DevOps Certification Training Program will provide you with in-depth knowledge of various DevOps tools including Git, Jenkins, Docker, Ansible, Puppet, Kubernetes and Nagios" ; 
+        cl:feature "Instructor-led Sessions, Real-life Case Studies, Assignments, Lifetime Access, 24x7 Expert Support, Certifiation, Forum" . 
 
-id:008     cl:name     "3 in 1! Cisco CCNA, Python Programming, & Network Automation" ;
-    cl:category      "Computer Network" ;
-    cl:platform       "Udemy" ;
-    cl:link       "https://www.udemy.com/course/3-in-1-cisco-ccna-python-programming-network-automation/" ;
-    cl:desc       "Kursus Python for Network Engineers. Belajar 3 materi dalam satu kursus, Networking, Python, dan Network Programming" ;
-    cl:feature         "Jaminan Uang Kembali 30 Hari, Video atas permintaan 7.5 jam, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Sertifikat Penyelesaian" . 
+id:008 cl:name "3 in 1! Cisco CCNA, Python Programming, & Network Automation" ; 
+        cl:link  "https://www.udemy.com/course/3-in-1-cisco-ccna-python-programming-network-automation/" ; 
+        cl:desc     "Kursus Python for Network Engineers. Belajar 3 materi dalam satu kursus, Networking, Python, dan Network Programming" ; 
+        cl:feature "Jaminan Uang Kembali 30 Hari, Video atas permintaan 7.5 jam, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Sertifikat Penyelesaian" . 
 
-id:009     cl:name     "React - The Complete Guide (incl Hooks, React Router, Redux)" ;
-    cl:category      "Front-End Web Development" ;
-    cl:platform       "Udemy" ;
-    cl:link       "https://www.udemy.com/course/react-the-complete-guide-incl-redux/" ;
-    cl:desc       "Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!" ;
-    cl:feature         "Jaminan Uang Kembali 30 Hari, Video atas permintaan 40.5 jam, 48 artikel, 223 sumber daya yang dapat diunduh, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Tugas, Sertifikat Penyelesaian" . 
+id:009 cl:name "React - The Complete Guide (incl Hooks, React Router, Redux)" ; 
+        cl:link  "https://www.udemy.com/course/react-the-complete-guide-incl-redux/" ; 
+        cl:desc     "Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!" ; 
+        cl:feature "Jaminan Uang Kembali 30 Hari, Video atas permintaan 40.5 jam, 48 artikel, 223 sumber daya yang dapat diunduh, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Tugas, Sertifikat Penyelesaian" . 
 
-id:010     cl:name     "Machine Learning with Python" ;
-    cl:category      "Machine Learning" ;
-    cl:platform       "Coursera" ;
-    cl:link       "https://www.coursera.org/learn/machine-learning-with-python" ;
-    cl:desc       "This course dives into the basics of machine learning using an approachable, and well-known programming language, Python" . 
+id:010 cl:name "Machine Learning with Python" ; 
+        cl:link  "https://www.coursera.org/learn/machine-learning-with-python" ; 
+        cl:desc     "This course dives into the basics of machine learning using an approachable, and well-known programming language, Python" . 
 
-id:011     cl:name     "Kelas Online Full-Stack JavaScript Developer" ;
-    cl:category      "Full-Stack Web Development" ;
-    cl:platform       "buildwithangga" ;
-    cl:link       "https://buildwithangga.com/kelas/full-stack-javascript-developer" ;
-    cl:desc       "Full-Stack Web Developmet menggunakan MERN Stack" ;
-    cl:feature         "Konsultasi gratis, Private Group, Project Master, Source Code, Sertifikat kelulusan, Update Tutorial Terbaru, Kesempatan Bekerja" . 
+id:011 cl:name "Kelas Online Full-Stack JavaScript Developer" ; 
+        cl:link  "https://buildwithangga.com/kelas/full-stack-javascript-developer" ; 
+        cl:desc     "Full-Stack Web Developmet menggunakan MERN Stack" ; 
+        cl:feature "Konsultasi gratis, Private Group, Project Master, Source Code, Sertifikat kelulusan, Update Tutorial Terbaru, Kesempatan Bekerja" . 
 
-id:012     cl:name     "Server-side Development with NodeJS, Express and MongoDB" ;
-    cl:category      "Back-End Web Development" ;
-    cl:platform       "Coursera" ;
-    cl:link       "https://www.coursera.org/learn/server-side-nodejs" ;
-    cl:desc       "This course deals with all things server-side. We base the entire course around the NodeJS platform" . 
+id:012 cl:name "Server-side Development with NodeJS, Express and MongoDB" ; 
+        cl:link  "https://www.coursera.org/learn/server-side-nodejs" ; 
+        cl:desc     "This course deals with all things server-side. We base the entire course around the NodeJS platform" . 
 
-id:013     cl:name     "Docker Training and Certification" ;
-    cl:category      "DevOps" ;
-    cl:platform       "edureka" ;
-    cl:link       "https://www.edureka.co/docker-training" ;
-    cl:desc       "Edureka's Docker Certification course provides an end to end learning experience for core Docker technologies" ;
-    cl:feature         "Instructor-led Sessions, Real-life Case Studies, Assignments, Lifetime Access, 24x7 Expert Support, Certifiation, Forum" . 
+id:013 cl:name "Docker Training and Certification" ; 
+        cl:link  "https://www.edureka.co/docker-training" ; 
+        cl:desc     "Edureka's Docker Certification course provides an end to end learning experience for core Docker technologies" ; 
+        cl:feature "Instructor-led Sessions, Real-life Case Studies, Assignments, Lifetime Access, 24x7 Expert Support, Certifiation, Forum" . 
 
-id:014     cl:name     "Computer Network: Networking fundamentals + Wireshark Basics" ;
-    cl:category      "Computer Network" ;
-    cl:platform       "Udemy" ;
-    cl:link       "https://www.udemy.com/course/computer-networks-course-networking-basics/" ;
-    cl:desc       "Learn Computer Networks fundamentals and Wireshark Basics; Build Strong, Successful Foundation in Computer Networking" ;
-    cl:feature         "Video atas permintaan 3.5 jam, Audio atas permintaan, 2.5 jam, 1 artikel, 2 sumber daya yang dapat diunduh, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Sertifikat Penyelesaian" . 
+id:014 cl:name "Computer Network: Networking fundamentals + Wireshark Basics" ; 
+        cl:link  "https://www.udemy.com/course/computer-networks-course-networking-basics/" ; 
+        cl:desc     "Learn Computer Networks fundamentals and Wireshark Basics; Build Strong, Successful Foundation in Computer Networking" ; 
+        cl:feature "Video atas permintaan 3.5 jam, Audio atas permintaan, 2.5 jam, 1 artikel, 2 sumber daya yang dapat diunduh, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Sertifikat Penyelesaian" . 
 
-id:015     cl:name     "Shodan The Scariest Search Engine" ;
-    cl:category      "Ethical Hacking" ;
-    cl:platform       "Udemy" ;
-    cl:link       "https://www.udemy.com/course/shodan-the-scariest-search-engine/" ;
-    cl:desc       "Teknik Penggunaan Shodan untuk menggali Informasi" ;
-    cl:feature         "Video atas permintaan 41 menit, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Sertifikat Penyelesaian" . 
+id:015 cl:name "Shodan The Scariest Search Engine" ; 
+        cl:link  "https://www.udemy.com/course/shodan-the-scariest-search-engine/" ; 
+        cl:desc     "Teknik Penggunaan Shodan untuk menggali Informasi" ; 
+        cl:feature "Video atas permintaan 41 menit, Akses penuh seumur hidup, Akses di perangkat seluler dan TV, Sertifikat Penyelesaian" . 
+
+# === Relation ===
+
+# --- Category ---
+# Category Names
+id:cat05 cl:category "Mobile Apps" .
+id:cat17 cl:category "Game Development" .
+id:cat51 cl:category "Cloud Platform" .
+id:cat55 cl:category "Ethical Hacking" .
+id:cat61 cl:category "Full-Stack Web Development" .
+id:cat65 cl:category "Back-End Web Development" .
+id:cat71 cl:category "DevOps" .
+id:cat77 cl:category "Computer Network" .
+id:cat88 cl:category "Front-End Web Development" .
+id:cat91 cl:category "Machine Learning" .
+
+# Course Category
+id:001 cl:isCategorized id:cat05 . 
+id:002 cl:isCategorized id:cat17 . 
+id:003 cl:isCategorized id:cat51 . 
+id:004 cl:isCategorized id:cat55 . 
+id:005 cl:isCategorized id:cat61 . 
+id:006 cl:isCategorized id:cat65 . 
+id:007 cl:isCategorized id:cat71 . 
+id:008 cl:isCategorized id:cat77 . 
+id:009 cl:isCategorized id:cat88 . 
+id:010 cl:isCategorized id:cat91 . 
+id:011 cl:isCategorized id:cat61 . 
+id:012 cl:isCategorized id:cat65 . 
+id:013 cl:isCategorized id:cat71 . 
+id:014 cl:isCategorized id:cat77 . 
+id:015 cl:isCategorized id:cat55 . 
+
+# --- Platform ---
+# Platform Names
+id:plat21 cl:platform "Build with Angga" .
+id:plat23 cl:platform "Udemy" .
+id:plat25 cl:platform "Coursera" .
+id:plat27 cl:platform "Edureka" .
+
+# Course Platform
+id:001 cl:isOnPlatform id:plat23 . 
+id:002 cl:isOnPlatform id:plat21 . 
+id:003 cl:isOnPlatform id:plat25 . 
+id:004 cl:isOnPlatform id:plat21 . 
+id:005 cl:isOnPlatform id:plat23 . 
+id:006 cl:isOnPlatform id:plat23 . 
+id:007 cl:isOnPlatform id:plat27 . 
+id:008 cl:isOnPlatform id:plat21 . 
+id:009 cl:isOnPlatform id:plat21 . 
+id:010 cl:isOnPlatform id:plat25 . 
+id:011 cl:isOnPlatform id:plat23 . 
+id:012 cl:isOnPlatform id:plat25 . 
+id:013 cl:isOnPlatform id:plat27 . 
+id:014 cl:isOnPlatform id:plat21 . 
+id:015 cl:isOnPlatform id:plat21 . 

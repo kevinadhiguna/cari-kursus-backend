@@ -13,12 +13,15 @@ PREFIX cl: <http://carikursus.com/ns/courselist#>
 SELECT ?c ?name ?category ?platform ?link ?desc ?feature
 WHERE
 {
-  ?c     cl:name    ?name ;
-        cl:category    ?category ;
-        cl:platform    ?platform ;
-        cl:link    ?link ;
-        cl:desc    ?desc ;
-  OPTIONAL {?c     cl:feature  ?feature . }
+  ?c cl:name ?name ;
+     cl:isCategorized ?namaCategory ;
+     cl:isOnPlatform ?namaPlatform ;
+     cl:link ?link . 
+
+  ?namaCategory cl:category ?category . 
+  ?namaPlatform cl:platform ?platform . 
+  OPTIONAL {?c cl:desc ?desc . }
+  OPTIONAl {?c cl:feature ?feature . }
   FILTER contains(lcase(str(?name)), lcase(str("${param.name ? param.name : ''}")))
   FILTER contains(lcase(str(?category)), lcase(str("${param.category ? param.category : ''}")))
   FILTER contains(lcase(str(?platform)), lcase(str("${param.platform ? param.platform : ''}")))

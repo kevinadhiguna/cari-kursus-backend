@@ -8,18 +8,19 @@
 # Fungsi query ini adalah untuk mencari kursus berdasarkan Platform Kursus
 # Query ini sudah diuji dengan apache-jena-3.14.0, dengan cari-kursus.ttl
 
-PREFIX cl: <http://carikursus.com/ns/courselist#>
+PREFIX cl: <http://carikursus.com/ns/courselist#> 
 
-SELECT ?name ?category ?platform ?link ?desc ?feature
+SELECT ?name ?category ?platform ?link ?desc ?feature 
 WHERE
 {
-  ?c     cl:name    ?name ;
-         cl:category    ?category ;
-         cl:platform    ?platform ;
-         cl:link    ?link ;
-         cl:desc    ?desc ;
-  OPTIONAL {?c     cl:feature  ?feature . }
-  FILTER regex(?platform, "{?platform}")
-}
+  ?c cl:name ?name ;
+     cl:isCategorized ?namaCategory ;
+     cl:isOnPlatform ?namaPlatform ;
+     cl:link ?link . 
 
-# Query yang digunakan pada backend adalah search.rq yang sudah terintegrasi dengan backend
+  ?namaCategory cl:category ?category . 
+  ?namaPlatform cl:platform ?platform . 
+  OPTIONAL {?c cl:desc ?desc . }
+  OPTIONAl {?c cl:feature ?feature . }
+  FILTER regex(?platform, "udemy","i") # 'udemy' hanya sebagai contoh
+}
